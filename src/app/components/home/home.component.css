@@ -7,6 +7,18 @@ html {
   }
 }
 
+.headshot {
+  border-radius: 50%;
+  margin-top: 2em;
+}
+
+.mw150 {
+  min-width: fit-content;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   max-width: 960px;
 }
@@ -23,3 +35,4 @@ html {
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+

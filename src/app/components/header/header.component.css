@@ -7,6 +7,10 @@ html {
   }
 }
 
+.border-primary {
+  border-color: #0AA!important;
+}
+
 .container {
   max-width: 960px;
 }
