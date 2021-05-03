@@ -11,6 +11,10 @@ html {
   border-color: #0AA!important;
 }
 
+.cc {
+  background-color: #0AA;
+}
+
 .container {
   max-width: 960px;
 }

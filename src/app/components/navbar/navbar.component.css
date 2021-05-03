@@ -7,13 +7,13 @@ html {
   }
 }
 
-.img-80 {
-  max-width: 70px;
-}
-
 a {
   font-size: larger;
-  padding: 4px!important;
+  padding: 4px;
+}
+
+a.text-dark {
+  margin-top: 10px;
 }
 
 .container {
@@ -24,8 +24,9 @@ a {
   max-width: 700px;
 }
 
-.card-deck .card {
-  min-width: 220px;
+.margintb7 {
+  margin-top: 5px;
+  margin-bottom: 7px;
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
