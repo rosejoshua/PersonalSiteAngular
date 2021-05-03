@@ -7,14 +7,26 @@ html {
   }
 }
 
+.border-primary {
+  border-color: #0AA!important;
+}
+
+.text-primary {
+  color: #0AA!important;
+}
+
 .headshot {
   border-radius: 50%;
   margin-top: 2em;
 }
 
-.mw150 {
-  min-width: fit-content;
-  max-width: 500px;
+.w350 {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.w70 {
+  width: 220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -27,6 +39,14 @@ html {
   max-width: 700px;
 }
 
+.bg-primary {
+  background-color: #0AA!important;
+}
+
+.cc {
+  background-color: rgb(205, 205, 205)!important;;
+}
+
 .card-deck .card {
   min-width: 220px;
 }
@@ -36,3 +56,10 @@ html {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+.max {
+  max-width: 130px;
+}
+
+div.col-2 {
+  padding: 0px 20px;
+}
