@@ -43,6 +43,10 @@ html {
   background-color: #0AA!important;
 }
 
+.max {
+  max-height: 100px;
+}
+
 .cc {
   background-color: rgb(205, 205, 205)!important;;
 }
@@ -55,10 +59,6 @@ html {
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-.max {
-  max-width: 130px;
-}
 
 div.col-2 {
   padding: 0px 20px;

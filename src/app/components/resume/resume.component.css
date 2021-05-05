@@ -26,7 +26,6 @@ html {
   margin-right: auto;
 }
 .w70 {
-  width: 220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,4 +66,16 @@ div.col-2 {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.sm {
+  max-width: 50px;
+}
+
+.w700 {
+  max-width: 700px;
+}
+
+.tlarger {
+  font-size: large;
 }
