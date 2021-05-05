@@ -2,14 +2,13 @@
 <div class="row align-items-center py-1 px-md-3 mb-3 bg-light border-bottom box-shadow">
 
   <div class="col-md-2 px-0 text-center text-md-left">
-  <a [routerLink]="['/home']"><img class="my-0 mr-md-auto font-weight-light text-white px-0 pt-1 pb-1" src="assets/img/favicon.ico" alt="logo"></a>
+  <a [routerLink]="['/about']"><img class="my-0 mr-md-auto font-weight-light text-white px-0 pt-1 pb-1" src="assets/img/favicon.ico" alt="logo"></a>
   </div>
 
   <div class="col-md-10 px-0 text-center text-md-right margintb7">
-      <a class="text-dark" href="#">About</a>
-      <a class="text-dark" href="#">Projects</a>
-      <a class="text-dark" href="#">Resume</a>
-      <a class="text-dark" href="#">Contact</a>
+      <a class="text-dark" [routerLink]="['/about']">About</a>
+      <a class="text-dark" [routerLink]="['/resume']">Resume</a>
+      <a class="text-dark" [routerLink]="['/social']">Social</a>
     </div>
 
 </div>
